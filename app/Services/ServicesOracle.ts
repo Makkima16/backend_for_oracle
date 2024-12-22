@@ -1,6 +1,11 @@
 // app/Services/ServicesOracle.ts
 import Database from '@ioc:Adonis/Lucid/Database';
-
+/*
+Debido a mayormente uso de procedimientos se tienen que agregar llamados, o por asi decirlo, begin
+Algo a tener en cuenta es que se debe configurar adecuadamente el orden de la estruuctura de la respuesta, siendo igual
+que en el procedimiento controller, el procedimiento del sqldeveloper y en el fronend
+algo diferente creara errores y dificultades para encontrar errores
+*/
 class ServicesOracle {
   /**
    * Método para ejecutar el procedimiento almacenado REGISTRAR_APUESTA

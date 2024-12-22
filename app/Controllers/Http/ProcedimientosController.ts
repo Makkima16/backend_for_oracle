@@ -1,7 +1,13 @@
 // app/Controllers/Http/ProcedimientosController.ts
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import ServicesOracle from 'App/Services/ServicesOracle'
-
+/*
+El procedimientoController es el controllador de la llamada de los procedimientos, no tiene mucha ciencia
+es declararle adecuadamente la peticion o request que requiere y dependiendo de si se configuro una respuesta o no
+el request apropiado, preferiblemente crear un request que llegue a explicar masomenos el error generado, tener en cuenta 
+que la request sera simplemente para un uso en el backend, debido a que mayormente se usan procedimientos estos no han de traer res´puesta
+para este proyecto las funciones se llamaban dentro de los procedimientos, razon por la cual no era necesario invocarlas desde el frontend
+*/
 export default class ProcedimientosController {
 
   /**
