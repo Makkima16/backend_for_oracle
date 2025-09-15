@@ -7,6 +7,7 @@ Backend con AdonisJS + Oracle para gestión de datos.
 ## Descripción
 
 Este proyecto es un backend construido con **AdonisJS** que se conecta a una base de datos **Oracle**. Sirve como API para operaciones CRUD, autenticación y gestión de datos.
+Ademas de esto se enfoca en el uso de procedimientos y funciones para el guardado de información y gestión de la base de datos, en caso de usar este proyecto como una base mejorar los procedimientos y funciones, pues debido al corto tiempo que se tuvo para su desarrollo no esta correctamente pulido y tiene algunos errores
 
 ---
 
