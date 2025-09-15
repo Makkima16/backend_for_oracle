@@ -28,9 +28,10 @@ Ademas de esto se enfoca en el uso de procedimientos y funciones para el guardad
    git clone https://github.com/Makkima16/backend_for_oracle.git
    
 2. Entra al directorio del proyecto:
-
-  cd backend_for_oracle
-
+   
+   ```bash
+    cd backend_for_oracle
+   
 3. Instala dependencias:
 
   - npm install
